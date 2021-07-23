@@ -32,3 +32,8 @@ body{
     color: white;
     background-image: url(/assets/backgrounds/s_image.jpg);
 }
+.wyd{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
