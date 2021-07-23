@@ -93,3 +93,84 @@ body{
 }
 /* Portfolio 5 */
 
+
+
+
+
+
+
+/* Contact Us Section */
+/* .contactus{
+    padding-top: 35px;
+    padding-bottom: 40px;
+    background-image: url(../assets/backgrounds/c_image.jpg);
+    background-repeat: no-repeat;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+}
+.myForm-input {
+    font-size: 12px;
+    padding: 5px 10px 10px 5px;
+    display: block;
+    width: 40%;
+    background: transparent;
+    color: white;
+}
+form.contact-us {
+    background: transparent;
+    padding-top: 20px;
+} */
+.section6 {
+    padding-top: 35px;
+    padding-bottom: 40px;
+    background-image: url(/assets/backgrounds/c_image.jpg);
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.text-section6 {
+    color: white;
+    font-size: 12px;
+}
+
+.myForm-input {
+    font-size: 12px;
+    padding: 5px 10px 10px 5px;
+    display: block;
+    width: 50%;
+    background: transparent;
+    color: white;
+}
+form.contact-us {
+    background: transparent;
+    padding-top: 20px;
+}
+
+form.contact-us input,
+form.contact-us textarea{
+    margin-bottom: 10px;
+    padding: 5px 5px;
+    border: 2px solid #fff;
+    background: transparent;
+    color: #fff;
+}
+input.contact-name{
+    width: 25%;
+}
+input.contact-email{
+    width: 25%;
+}
+
+
+.contact-btn button {
+    padding: 7px 10px;
+    width: 150px;
+    font-weight: bold;
+    transition: border 0.2s;
+    font-size: 1.2rem;
+}
+
+.contact-btn button:hover {
+    border: 2px solid #fff;
+}
