@@ -49,3 +49,26 @@ $(document).ready(function(){
 
 
 })
+function validator(){
+    var username=document.getElementById('contact-name').value;
+    var email=document.getElementById('contact-email').value;
+    var message=document.getElementById('contact-message').value
+    if(username==''){
+        alert('Dear user, Kindly input your username');
+        username.focus();
+        return false;
+        
+    }
+    if(email==''){
+        alert('Dear '+username+'\n  Kindly input your email address');
+        email.focus();
+        return false
+    }
+    if(message==''){
+        alert('Dear '+username+' You forgot to leave us a message')
+        message.focus()
+        return false;
+        
+    }
+    alert('Dear '+username+'\n  Thank you for filling this form.')
+}

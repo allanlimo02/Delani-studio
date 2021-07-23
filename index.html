@@ -155,7 +155,7 @@
 <div class="section6">
     <div class="text-section6">
         <h3>CONTACT US</h3>
-        <form name="myForm" action="" class="contact-us">
+        <form name="myForm" onsubmit="return validator()" class="contact-us">
            <label for="">Name</label>
             <input type="text" placeholder="Name..." class="contact-name" id="contact-name">
             <label for="">Email</label>
@@ -164,7 +164,7 @@
                 <textarea name="" id="contact-message" cols="100" rows="10" placeholder="Your message here..."></textarea>
             </div>
             <div class="contact-btn">
-                <button id="myBtn">Submit</button>
+                <button id="myBtn" type="submit">Submit</button>
             </div>
         </form>          
             </div>
