@@ -1,0 +1,24 @@
+body{
+    font-family: poppins !important;
+}
+.landing{
+    text-align: center;
+    background-image: url(/assets/backgrounds/h_img.jpg);
+    padding-top: 300px;
+    color: white;
+}
+.mouse-icon{
+    padding-top: 280px;
+    padding-bottom: 20px;
+
+}
+@media screen and (max-width: 680px) {
+    .landing{
+        padding-top: 110px;
+        color: white;
+
+    }
+    .mouse-icon{
+        padding-top: 100px;
+    }
+}
