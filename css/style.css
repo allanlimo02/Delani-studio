@@ -37,3 +37,12 @@ body{
     padding-bottom: 50px;
     text-align: center;
 }
+#info1{
+    display: none;
+}
+#info2{
+    display: none;
+}
+#info3{
+    display: none;
+}
