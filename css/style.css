@@ -22,10 +22,14 @@ body{
         padding-top: 100px;
     }
 }
+
+/* About Us section */
 .aboutus{
     text-align: center;
     padding: 50px;
 }
+
+/* Services Section */
 .services{
     text-align: center;
     padding: 100px 0px 100px 0px;
@@ -46,3 +50,34 @@ body{
 #info3{
     display: none;
 }
+
+/* Portfolio Section */
+.work1{
+    background-image: url(/assets/portfolio/work4.jpg);
+    color: white;
+    text-align: center;
+    padding-top: 130px;
+    border: double 5px white;
+    
+}
+#prjtitle{
+    font-size: 25px;
+    display: none;
+}
+
+.work2{
+    background-image: url(/assets/portfolio/work3.jpg);
+    margin: 5px;
+    width: 23%  !important;
+}
+.work3{
+    background-image: url(/assets/portfolio/work2.jpg);
+    margin: 5px;
+    width: 23%  !important;
+}
+.work4{
+    background-image: url(/assets/portfolio/work1.jpg);
+    margin: 5px;
+    width: 23% !important;
+}
+

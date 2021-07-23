@@ -29,3 +29,13 @@ $(document).ready(function(){
         $('#info3x').hide()
     })
 })
+$(document).ready(function(){
+    $('.work1').mouseenter(function(){
+        $('#prjtitle').show()
+    })
+    $('.work1').mouseleave(function(){
+        $('#prjtitle').hide()
+    })
+
+
+})
