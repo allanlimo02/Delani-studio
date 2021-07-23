@@ -27,6 +27,6 @@ Incase of any issue and you would like to be helped to sort out, don't hessitate
 * Facebook: Allan Ngetich Chichi
 * Instagram: allaney_ngetich
 ### License
-*{This document comes with <a href="https://github.com/allanlimo02/Delani-studio/blob/devmango/LICENSE" target="_blank"></a> MIT Licence. Find the License document attached to it to learn more about it}*
+*{This document comes with <a href="https://github.com/allanlimo02/Delani-studio/LICENSE" target="_blank">MIT Licence</a> . Find the License document attached to it to learn more about it}*
 Copyright (c) {2021} 
 **{Made with pride for <a href="https://moringaschool.com" target="_blank">Moringa School</a>}**
