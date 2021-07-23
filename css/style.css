@@ -174,3 +174,9 @@ input.contact-email{
 .contact-btn button:hover {
     border: 2px solid #fff;
 }
+
+/* Footer section */
+footer{
+    padding-top: 100px;
+    text-align: center;
+}
