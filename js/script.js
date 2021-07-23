@@ -30,12 +30,22 @@ $(document).ready(function(){
     })
 })
 $(document).ready(function(){
+    // Portfolio 1
     $('.work1').mouseenter(function(){
         $('#prjtitle').show()
     })
     $('.work1').mouseleave(function(){
         $('#prjtitle').hide()
     })
+    //Portfolio 2
+    $('.work2').mouseenter(function(){
+        $('#prjtitle2').show()
+        $('.work2')
+    })
+    $('.work2').mouseleave(function(){
+        $('#prjtitle2').hide()
+    })
+
 
 
 })

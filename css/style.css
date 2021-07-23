@@ -52,11 +52,13 @@ body{
 }
 
 /* Portfolio Section */
+
+/* Portfolio 1 */
 .work1{
     background-image: url(/assets/portfolio/work4.jpg);
     color: white;
     text-align: center;
-    padding-top: 130px;
+    padding-top: 100px;
     border: double 5px white;
     
 }
@@ -64,20 +66,30 @@ body{
     font-size: 25px;
     display: none;
 }
-
+/* Portfolio 2 */
 .work2{
     background-image: url(/assets/portfolio/work3.jpg);
-    margin: 5px;
-    width: 23%  !important;
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+    border: double 5px white;
 }
+#prjtitle2{
+    font-size: 25px;
+    display: none;
+    background-color: #252f31;
+}
+/* Portfolio 3 */
 .work3{
     background-image: url(/assets/portfolio/work2.jpg);
     margin: 5px;
     width: 23%  !important;
 }
+/* Portfolio 4 */
 .work4{
     background-image: url(/assets/portfolio/work1.jpg);
     margin: 5px;
     width: 23% !important;
 }
+/* Portfolio 5 */
 
