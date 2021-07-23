@@ -1,11 +1,31 @@
 
 $(document).ready(function(){
-    $("div.info1").click(function(){
-        $('.info1').hide()
+    $("div.info1-main").mouseenter(function(){
+        $('.info1').toggle()
         $('#info1').show()
     })
-    $("div#info1").click(function(){
+    $("div#info1").mouseleave(function(){
         $('.info1').show()
-        $('#info').hide(    )
+        $('#info').hide()
+    })
+})
+$(document).ready(function(){
+    $("div.info2-main").mouseenter(function(){
+        $('.info2').toggle()
+        $('#info2').show()
+    })
+    $("div#info2").mouseleave(function(){
+        $('.info2').show()
+        $('#info2').hide()
+    })
+})
+$(document).ready(function(){
+    $("div.info3-main").mouseenter(function(){
+        $('.info3').toggle()
+        $('#info3').show()
+    })
+    $("div#info3").mouseleave(function(){
+        $('.info3').show()
+        $('#info3x').hide()
     })
 })
