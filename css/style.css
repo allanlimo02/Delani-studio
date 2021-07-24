@@ -1,5 +1,6 @@
 body{
     font-family: poppins !important;
+    overflow-x: hidden;
 }
 .landing{
     text-align: center;
@@ -21,11 +22,16 @@ body{
     .mouse-icon{
         padding-top: 100px;
     }
+    
 }
+
+/* About Us section */
 .aboutus{
     text-align: center;
     padding: 50px;
 }
+
+/* Services Section */
 .services{
     text-align: center;
     padding: 100px 0px 100px 0px;
@@ -36,6 +42,7 @@ body{
     padding-top: 50px;
     padding-bottom: 50px;
     text-align: center;
+    /* height: 350px; */
 }
 #info1{
     display: none;
@@ -45,4 +52,216 @@ body{
 }
 #info3{
     display: none;
+}
+
+/* Portfolio Section */
+.portfolio{
+    margin-bottom: 50px;
+    margin-left: 20px;
+    text-align: center;
+}
+/* Portfolio 1 */
+.work1{
+    color: white;
+    text-align: center;
+    text-align: center;
+    font-size: 35px;
+    
+}
+.work1 p{
+    padding-top: 90px;
+    padding-bottom: 90px;
+    display: none;
+    font-size: 35px;
+    margin-top: 5px;
+}
+/* Overlay effect */
+.overlay:hover{
+    opacity: 0.9;
+}
+.overlay {
+    bottom: 0; 
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #bb1a1a; 
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+
+#prjtitle{
+    font-size: 35px;
+    /* display: none; */
+}
+/* Portfolio 2 */
+.work2{
+    color: white;
+    text-align: center;
+    text-align: center;
+    font-size: 35px;
+    
+}
+.work2 p{
+    padding-top: 90px;
+    padding-bottom: 90px;
+    display: none;
+    font-size: 35px;
+    margin-top: 5px;
+}
+/* Portfolio 3 */
+.work3{
+    color: white;
+    text-align: center;
+    text-align: center;
+    font-size: 35px;
+    
+}
+.work3 p{
+    padding-top: 90px;
+    padding-bottom: 90px;
+    display: none;
+    font-size: 35px;
+    margin-top: 5px;
+}
+
+/* Portfolio 4 */
+.work4{
+    color: white;
+    text-align: center;
+    text-align: center;
+    font-size: 25px;
+    
+}
+.work4 p{
+    padding-top: 90px;
+    padding-bottom: 90px;
+    display: none;
+    font-size: 35px;
+    margin-top: 5px;
+}
+    /* Portfolio 5 */
+    .work5{
+        color: white;
+        text-align: center;
+        text-align: center;
+        font-size: 25px;
+        
+    }
+    .work5 p{
+        padding-top: 90px;
+        padding-bottom: 90px;
+        display: none;
+        font-size: 35px;
+        margin-top: 5px;
+    }
+    /* Portfolio 6 */
+    .work6{
+        color: white;
+        text-align: center;
+        text-align: center;
+        font-size: 25px;
+        
+    }
+    .work6 p{
+        padding-top: 90px;
+        padding-bottom: 90px;
+        display: none;
+        font-size: 35px;
+        margin-top: 5px;
+    }
+    /* Portfolio 7 */
+    .work7{
+        color: white;
+        text-align: center;
+        text-align: center;
+        font-size: 25px;
+        
+    }
+    .work7 p{
+        padding-top: 90px;
+        padding-bottom: 90px;
+        display: none;
+        font-size: 35px;
+        margin-top: 5px;
+    }
+    /* Portfolio 8 */
+    .work8{
+        color: white;
+        text-align: center;
+        text-align: center;
+        font-size: 25px;
+        
+    }
+    .work8 p{
+        padding-top: 90px;
+        padding-bottom: 90px;
+        display: none;
+        font-size: 35px;
+        margin-top: 5px;
+    }
+
+
+/* Contact Section */
+.section6 {
+    padding-top: 35px;
+    padding-bottom: 40px;
+    background-image: url(/assets/backgrounds/c_image.jpg);
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.text-section6 {
+    color: white;
+    font-size: 12px;
+}
+
+.myForm-input {
+    font-size: 12px;
+    padding: 5px 10px 10px 5px;
+    display: block;
+    width: 50%;
+    background: transparent;
+    color: white;
+}
+form.contact-us {
+    background: transparent;
+    padding-top: 20px;
+}
+
+form.contact-us input,
+form.contact-us textarea{
+    margin-bottom: 10px;
+    padding: 5px 5px;
+    border: 2px solid #fff;
+    background: transparent;
+    color: #fff;
+}
+input.contact-name{
+    width: 25%;
+}
+input.contact-email{
+    width: 25%;
+}
+
+
+.contact-btn button {
+    padding: 7px 10px;
+    width: 150px;
+    font-weight: bold;
+    transition: border 0.2s;
+    font-size: 1.2rem;
+}
+
+.contact-btn button:hover {
+    border: 2px solid #fff;
+}
+
+/* Footer section */
+footer{
+    padding-top: 100px;
+    text-align: center;
 }
