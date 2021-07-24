@@ -1,5 +1,6 @@
 body{
     font-family: poppins !important;
+    overflow-x: hidden;
 }
 .landing{
     text-align: center;
@@ -21,6 +22,7 @@ body{
     .mouse-icon{
         padding-top: 100px;
     }
+    
 }
 
 /* About Us section */
@@ -40,6 +42,7 @@ body{
     padding-top: 50px;
     padding-bottom: 50px;
     text-align: center;
+    /* height: 350px; */
 }
 #info1{
     display: none;
@@ -52,75 +55,157 @@ body{
 }
 
 /* Portfolio Section */
-
+.portfolio{
+    margin-bottom: 50px;
+    margin-left: 20px;
+    text-align: center;
+}
 /* Portfolio 1 */
 .work1{
-    background-image: url(/assets/portfolio/work4.jpg);
     color: white;
     text-align: center;
-    padding-top: 100px;
-    border: double 5px white;
+    text-align: center;
+    font-size: 35px;
     
 }
-#prjtitle{
-    font-size: 25px;
+.work1 p{
+    padding-top: 90px;
+    padding-bottom: 90px;
     display: none;
+    font-size: 35px;
+    margin-top: 5px;
+}
+/* Overlay effect */
+.overlay:hover{
+    opacity: 0.9;
+}
+.overlay {
+    bottom: 0; 
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #bb1a1a; 
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+
+#prjtitle{
+    font-size: 35px;
+    /* display: none; */
 }
 /* Portfolio 2 */
 .work2{
-    background-image: url(/assets/portfolio/work3.jpg);
     color: white;
     text-align: center;
-    padding-top: 100px;
-    border: double 5px white;
+    text-align: center;
+    font-size: 35px;
+    
 }
-#prjtitle2{
-    font-size: 25px;
+.work2 p{
+    padding-top: 90px;
+    padding-bottom: 90px;
     display: none;
-    background-color: #252f31;
+    font-size: 35px;
+    margin-top: 5px;
 }
 /* Portfolio 3 */
 .work3{
-    background-image: url(/assets/portfolio/work2.jpg);
-    margin: 5px;
-    width: 23%  !important;
+    color: white;
+    text-align: center;
+    text-align: center;
+    font-size: 35px;
+    
 }
+.work3 p{
+    padding-top: 90px;
+    padding-bottom: 90px;
+    display: none;
+    font-size: 35px;
+    margin-top: 5px;
+}
+
 /* Portfolio 4 */
 .work4{
-    background-image: url(/assets/portfolio/work1.jpg);
-    margin: 5px;
-    width: 23% !important;
-}
-/* Portfolio 5 */
-
-
-
-
-
-
-
-/* Contact Us Section */
-/* .contactus{
-    padding-top: 35px;
-    padding-bottom: 40px;
-    background-image: url(../assets/backgrounds/c_image.jpg);
-    background-repeat: no-repeat;
     color: white;
-    font-size: 12px;
     text-align: center;
+    text-align: center;
+    font-size: 25px;
+    
 }
-.myForm-input {
-    font-size: 12px;
-    padding: 5px 10px 10px 5px;
-    display: block;
-    width: 40%;
-    background: transparent;
-    color: white;
+.work4 p{
+    padding-top: 90px;
+    padding-bottom: 90px;
+    display: none;
+    font-size: 35px;
+    margin-top: 5px;
 }
-form.contact-us {
-    background: transparent;
-    padding-top: 20px;
-} */
+    /* Portfolio 5 */
+    .work5{
+        color: white;
+        text-align: center;
+        text-align: center;
+        font-size: 25px;
+        
+    }
+    .work5 p{
+        padding-top: 90px;
+        padding-bottom: 90px;
+        display: none;
+        font-size: 35px;
+        margin-top: 5px;
+    }
+    /* Portfolio 6 */
+    .work6{
+        color: white;
+        text-align: center;
+        text-align: center;
+        font-size: 25px;
+        
+    }
+    .work6 p{
+        padding-top: 90px;
+        padding-bottom: 90px;
+        display: none;
+        font-size: 35px;
+        margin-top: 5px;
+    }
+    /* Portfolio 7 */
+    .work7{
+        color: white;
+        text-align: center;
+        text-align: center;
+        font-size: 25px;
+        
+    }
+    .work7 p{
+        padding-top: 90px;
+        padding-bottom: 90px;
+        display: none;
+        font-size: 35px;
+        margin-top: 5px;
+    }
+    /* Portfolio 8 */
+    .work8{
+        color: white;
+        text-align: center;
+        text-align: center;
+        font-size: 25px;
+        
+    }
+    .work8 p{
+        padding-top: 90px;
+        padding-bottom: 90px;
+        display: none;
+        font-size: 35px;
+        margin-top: 5px;
+    }
+
+
+/* Contact Section */
 .section6 {
     padding-top: 35px;
     padding-bottom: 40px;
