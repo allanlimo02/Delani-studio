@@ -6,6 +6,7 @@ body{
     text-align: center;
     background-image: url(../assets/backgrounds/h_img.jpg);
     padding-top: 300px;
+    background-position: center;
     color: white;
 }
 .mouse-icon{
@@ -245,6 +246,9 @@ input.contact-name{
 }
 input.contact-email{
     width: 25%;
+}
+#contact-message{
+    width: 50%;
 }
 
 
