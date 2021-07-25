@@ -1,34 +1,23 @@
 // What we do toggle
 $(document).ready(function(){
-    $("div.info1-main").mouseenter(function(){
-        $('.info1').toggle()
-        $('#info1').show()
+    $("div.info1-main").click(function(){
+        $('.info1').slideToggle()
+        $('#info1').slideToggle()
     })
-    $("div#info1").mouseleave(function(){
-        $('.info1').show()
-        $('#info1').hide()
-    })
-})
 
-$(document).ready(function(){
-    $("div.info2-main").mouseenter(function(){
-        $('.info2').toggle()
-        $('#info2').show()
+
+
+    $("div.info2-main").click(function(){
+        $('.info2').slideToggle()
+        $('#info2').slideToggle()
     })
-    $("div#info2").mouseleave(function(){
-        $('.info2').show()
-        $('#info2').hide()
+   
+
+    $("div.info3-main").click(function(){
+        $('.info3').slideToggle()
+        $('#info3').slideToggle()
     })
-})
-$(document).ready(function(){
-    $("div.info3-main").mouseenter(function(){
-        $('.info3').toggle()
-        $('#info3').show()
-    })
-    $("div#info3").mouseleave(function(){
-        $('.info3').show()
-        $('#info3').hide()
-    })
+  
 })
 
 // Form Validation
@@ -42,18 +31,18 @@ function validator(){
         username.focus();
         return false;
         
-    }
+    }else
     if(email==''){
         alert('Dear '+username+'\n  Kindly input your email address');
         email.focus();
         return false
-    }
+    }else
     if(message==''){
         alert('Dear '+username+' You forgot to leave us a message')
         message.focus()
         return false;
         
-    }
+    }else
     alert('Dear '+username+'\n  Thank you for filling this form.')
 }
 
