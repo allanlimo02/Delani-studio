@@ -209,7 +209,7 @@ body{
 .section6 {
     padding-top: 35px;
     padding-bottom: 40px;
-    background-image: url(/assets/backgrounds/c_image.jpg);
+    background-image: url(../assets/backgrounds/c_image.jpg);
     background-repeat: no-repeat;
     text-align: center;
 }
