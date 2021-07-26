@@ -1,11 +1,14 @@
-# Delani Studio Website.
+# Delani Studio Website.:camera_flash:
 
 #### This is a studio website. It shows their clients what kind of dervice they offer, so that clients can be confident about their work before visiting them. }, {Created on 23th July 2021
 
 #### By **<a href="github.com/allanlimo02" target="_blank">Allan Limo</a>**
 
 ## Description
-Delani is a studio, where they offer several service to their clients.
+Delani   is a studio, where they offer several service to their clients.
+**Frontend preview**
+![Screenshot](./assets/screenshot.jpg)
+
 
 ## Setup/Installation Requirements
 * Visual studio code or any preffered code editor
