@@ -83,8 +83,7 @@ body{
 .overlay {
     bottom: 0; 
     background: rgb(0, 0, 0);
-    background: rgba(0, 0, 0, 0.5); /* Black see-through */
-    color: #bb1a1a; 
+    background: rgba(0, 0, 0, 0.5);
     width: 100%;
     transition: .5s ease;
     opacity:0;
